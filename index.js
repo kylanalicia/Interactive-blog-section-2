@@ -12,7 +12,7 @@ function render(item) {
 
 }
 function getting() {
-fetch(' http://localhost:3000/comments')
+fetch(' https://interative-blog-section-2.onrender.com/comments')
 .then(response => response.json())
 .then(comments => comments.forEach(item => render(item)))
 }
@@ -20,7 +20,7 @@ getting()
 
 document.addEventListener("submit",(e) => {
   e.preventDefault();
-  fetch(' http://localhost:3000/comments',{
+  fetch('https://interative-blog-section-2.onrender.com/comments ',{
   method:"POST",
   headers: {
     'Content-Type': 'application/json'
