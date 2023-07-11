@@ -6,8 +6,8 @@
          "createdAt": "1 month ago", 
          "score": 12, 
          "png": "https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80", 
-         "webp": "./images/avatars/image-amyrobson.webp", 
-         "username": "amyrobson", 
+         "webp": "./images/avatars/image-sherry.webp", 
+         "username": "sherry", 
          "replies": ""
             
       },
@@ -16,10 +16,35 @@
        "content": "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into Javascript as well soon. Perhaps you can give me an insight on where I can learn Javascript? Thanks!",
        "createdAt": "2 weeks ago", 
        "score": 5,
-       "webp": "./images/avatars/image-amyrobson.webp",
+       "webp": "./images/avatars/image-max.webp",
        "png": "https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+       "username":"max",
        "replies":""
       }
 
+  ]
+}
+{
+  "replies": [
+    {
+      "id":3,
+      "content": "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS.",
+          "createdAt": "1 week ago",
+          "score": 4,
+          "replyingTo": "max",
+          "webp": "./images/avatars/image-mwihaki.webp",
+          "png": "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            "username": "mwihaki"
+    },
+    {
+      "id": 4,
+      "content":"Great job! Keep up with your learning!",
+      "createdAt": "yesterday at noon",
+      "score":7,
+      "replyingTo": "mwihaki",
+      "webp": "./images/avatars/image-bobby.webp",
+              "png": "https://images.unsplash.com/photo-1574586099306-30ce08418e0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=833&q=80",
+            "username": "bobby"
+    }
   ]
 }
